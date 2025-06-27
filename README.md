@@ -66,22 +66,5 @@ Royal Infra is a powerful, secure, and dynamic web application tailored for real
 Email: mukherjeesouvik2043@gmail.com,
 Password: Souvik@#123
 
-## # Clone the repository
-git clone https://github.com/your-username/royal-infra.git
-cd royal-infra
 
-# Install dependencies
-composer install
-npm install && npm run dev
-
-# Copy the environment file and configure
-cp .env.example .env
-php artisan key:generate
-
-# Set your database credentials in .env
-php artisan migrate
-php artisan db:seed # Optional, if you have seeders
-
-# Run the application
-php artisan serve
 
